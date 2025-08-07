@@ -41,13 +41,13 @@ Uma ferramenta abrangente baseada em Python para gerenciamento de contas de usu�
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seuusuario/gerenciador-usuarios-windows.git
-cd gerenciador-usuarios-windows
+git clone https://github.com/Laurentx1/gerenciador-usuarios.git
+cd gerenciador-usuarios
 ```
 
 2. Execute o script:
 ```bash
-python user_manager.py
+python gerenciador-usuarios.py
 ```
 
 A aplicação solicitará automaticamente privilégios de administrador se não estiver executando com permissões elevadas.
@@ -105,7 +105,7 @@ Esta ferramenta requer privilégios de administrador para funcionar adequadament
 ## Estrutura do Código
 
 ```
-user_manager.py
+gerenciador-usuarios.py
 ├── Classe UserManager
 │   ├── Verificação de privilégios administrativos
 │   ├── Execução de comandos do sistema
@@ -122,9 +122,9 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request
 ### Como Contribuir
 
 1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
+2. Crie uma branch para sua feature (git checkout -b feature/NovaFuncionalidade)
+3. Commit suas mudanças (git commit -m 'Adiciona nova funcionalidade')
+4. Push para a branch (git push origin feature/NovaFuncionalidade)
 5. Abra um Pull Request
 
 ## Licença
